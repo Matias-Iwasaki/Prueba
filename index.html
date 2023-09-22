@@ -1,11 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type=text/css href="./Styles/style.css">
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="./Imagenes/info-per.jpg"
+      type="image/x-icon"
+    />
     <title>Home</title>
-</head>
-<body>
-    <h1>Prueba para mi primer commit</h1>
-</body>
+  </head>
+
+  <body>
+    <!--Barra de navegación-->
+    <header>
+      <nav class="nav">
+        <a href="index.html" class="nav__logo">M.I.WEB</a>
+        <ul class="nav__bar bar">
+          <li class="bar__link link--select">
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li class="bar__link">
+            <a href="./Paginas/contacto.html">Contacto</a>
+          </li>
+          <li class="bar__link">
+            <a href="./Paginas/proyectos.html">Proyectos</a>
+          </li>
+          <li class="bar__link">
+            <a href="./Paginas/trayectoria.html">Trayectoria</a>
+          </li>
+          <li class="bar__link">
+            <a href="./Paginas/sobremi.html">Sobre Mí</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!--Inicio-->
+    <main>
+      <div class="main-container">
+        <section class="main-container__card">
+          <img
+            src="./Imagenes/usuario-icon.png"
+            alt="Foto de perfil"
+            class="main-container__photo"
+          />
+          <h1 class="main-container__name">Matias Iwasaki</h1>
+        </section>
+        <section class="main-container__card">
+          <h2 class="main-container__text">
+            Bienvenido/a!<br />Soy Desarrollador WEB
+          </h2>
+          <a href="./Paginas/contacto.html" class="main-container__link">
+            <i class="bx bx-mail-send"></i>Contactame!
+          </a>
+        </section>
+      </div>
+    </main>
+    <!--Footer-->
+    <footer>
+      <div class="footer-container">
+        <div id="iconos" class="footer-container__links-box">
+          <a href="https://instagram.com" class="footer-container__icons"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+          <a href="https://youtube.com" class="footer-container__icons"
+            ><i class="bx bxl-youtube"></i
+          ></a>
+          <a href="https://facebook.com" class="footer-container__icons"
+            ><i class="bx bxl-facebook-circle"></i
+          ></a>
+          <a href="https://linkedin.com" class="footer-container__icons"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+        <h2 class="footer-container__copyright">
+          © Derechos reservados - Diseñado por Matias Iwasaki
+        </h2>
+      </div>
+    </footer>
+  </body>
 </html>
